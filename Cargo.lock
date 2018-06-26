@@ -1,0 +1,4 @@
+[[package]]
+name = "wasm-size-bug"
+version = "0.1.0"
+

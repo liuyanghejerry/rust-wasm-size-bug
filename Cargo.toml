@@ -1,0 +1,15 @@
+[package]
+name = "wasm-size-bug"
+version = "0.1.0"
+authors = ["liuyanghejerry <liuyanghejerry@126.com>"]
+
+[dependencies]
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[profile.release]
+debug = false
+# lto = true
+opt-level = 's'
