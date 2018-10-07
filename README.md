@@ -13,6 +13,14 @@ Then you can run following command to compile code:
 cargo +nightly build --target=wasm32-unknown-unknown --release
 ```
 
+Or use shell script:
+
+```shell
+./run.sh
+```
+
 The WASM file is located at `target/wasm32-unknown-unknown/release/wasm_size_bug.wasm`.
 
 In my macOS with `rustc 1.28.0-nightly (2a1c4eec4 2018-06-25)`, the binary is about 639K.
+
+Updated on `rustc 1.31.0-nightly (4efdc04a5 2018-10-06)`, with LTO enabled, it's 52KB now.
