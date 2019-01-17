@@ -21,6 +21,11 @@ Or use shell script:
 
 The WASM file is located at `target/wasm32-unknown-unknown/release/wasm_size_bug.wasm`.
 
+### `rustc 1.28.0-nightly (2a1c4eec4 2018-06-25)`
 In my macOS with `rustc 1.28.0-nightly (2a1c4eec4 2018-06-25)`, the binary is about 639K.
 
-Updated on `rustc 1.31.0-nightly (4efdc04a5 2018-10-06)`, with LTO enabled, it's 52KB now.
+### `rustc 1.31.0-nightly (4efdc04a5 2018-10-06)`
+With LTO enabled, it's 52KB now.
+
+### `rustc 1.33.0-nightly (ceb251214 2019-01-16)`
+It's 63KB now. No idea why it is going backwards.
