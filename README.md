@@ -29,3 +29,6 @@ With LTO enabled, it's 52KB now.
 
 ### `rustc 1.33.0-nightly (ceb251214 2019-01-16)`
 It's 63KB now. No idea why it is going backwards.
+
+### `rustc 1.49.0 (e1884a8e3 2020-12-29)`
+It's 236B now. Wow! Not sure the minimal version get this done.
